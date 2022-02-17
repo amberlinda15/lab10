@@ -1,0 +1,31 @@
+{
+    "teammembers": [
+        {
+            "member_id": 1,
+            "team_id": 15,
+            "first_name": "adarsh",
+            "last_name": "verma",
+            "mobile_number": "865478512",
+            "email": "adarshverma@gmail.com",
+            "gender": "male"
+        },
+        {
+            "member_id": 2,
+            "team_id": 78,
+            "first_name": "ankur",
+            "last_name": "sharma",
+            "mobile_number": "9865421547",
+            "email": "ankursharma@gmail.com",
+            "gender": "male"
+        },
+        {
+            "member_id": "75",
+            "team_id": "10",
+            "first_name": "amber",
+            "last_name": "linda",
+            "mobile_number": "89654785",
+            "email": "amberlinda@gmail.com",
+            "gender": "male"
+        }
+    ]
+}

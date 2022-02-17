@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+.main-head{
+    text-transform: uppercase;
+    text-align: center;
+    margin: 40px auto;
+}
+
+.form-cont{
+    width: 100%;
+    text-align: center;
+}
+
+.form-cont > input{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.form-cont > button{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    background: none;
+    cursor: pointer;
+}

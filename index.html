@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>node-json</title>
+        <link rel="stylesheet" href="./res/index.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <div class="main-cont">
+            <h1 class="main-head">Add team members</h1>
+            <form class="form-cont" method="post" action="/submit">
+                <input type="number" name="member_id" placeholder="Member id"/>
+                <input type="number" name="team_id" placeholder="team id"/>
+                <input type="text" name="first_name" placeholder="first name"/>
+                <input type="text" name="last_name" placeholder="last name"/>
+                <input type="number" name="mobile_number" placeholder="mobile number"/>
+                <input type="email" name="email" placeholder="email"/>
+                <input type="text" name="gender" placeholder="gender"/>
+                <button type="submit">submit</button>
+            </form>
+        </div>
+    </body>
+</html>
